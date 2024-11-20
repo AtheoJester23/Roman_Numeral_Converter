@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(84, 46, 113);
+    font-family: "Train One", system-ui;
+}
+
+.theInp{
+    width: 400px;
+    background-color: rgb(251, 54, 64);
+    border-color: green;
+}
+
+.inpAndRes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.theButton{
+    background-color: rgb(253, 202, 64);
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.theButton:active{
+    color: white;
+}
+
+#title{
+    color: rgb(253, 202, 64);
+}
+
+.title, #output{
+    font-family: system-ui;
+}
